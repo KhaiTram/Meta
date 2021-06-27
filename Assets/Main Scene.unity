@@ -16283,6 +16283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 782274452}
+  - component: {fileID: 782274453}
   m_Layer: 0
   m_Name: Sky
   m_TagString: Untagged
@@ -16349,6 +16350,19 @@ RectTransform:
   m_AnchoredPosition: {x: -12, y: 5.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &782274453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782274451}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &785157528
 GameObject:
   m_ObjectHideFlags: 0
@@ -21252,6 +21266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1073147302}
+  - component: {fileID: 1073147303}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -21329,6 +21344,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1073147303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073147301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1073992299
 GameObject:
   m_ObjectHideFlags: 0
@@ -24340,6 +24368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1237546821}
+  - component: {fileID: 1237546822}
   m_Layer: 0
   m_Name: Sky (1)
   m_TagString: Untagged
@@ -24422,6 +24451,19 @@ RectTransform:
   m_AnchoredPosition: {x: -19, y: 5.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!65 &1237546822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237546820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1237781588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28218,6 +28260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1417971619}
+  - component: {fileID: 1417971620}
   m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -28279,6 +28322,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1417971620
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417971618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1424576274
 PrefabInstance:
   m_ObjectHideFlags: 0
