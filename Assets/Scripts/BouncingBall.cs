@@ -11,6 +11,11 @@ public class BouncingBall : MetaBall {
         base.Start();
         this.direction = Random.onUnitSphere;
         this.container = this.GetComponentInParent<Container>();
+
+        /*GameObject Meta1 = GameObject. FindGameObjectWithTag("Ball (1)");
+        GameObject Meta2 = GameObject. FindGameObjectWithTag("Ball (2)");
+        GameObject Meta3 = GameObject. FindGameObjectWithTag("Ball (3)");
+        Physics. IgnoreCollision(Meta1. GetComponent<Collider2D>(), GetComponent<Collider2D>());*/
     }
 
     public void Update() {
